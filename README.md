@@ -15,12 +15,12 @@ docker exec -it node-app yarn install
   
 Rodando Testes
 ```sh
-docker exec -it node-app yarn run test
+docker exec -it node-app yarn test
 ```
 
 Rodando Coverage
 ```sh
-docker exec -it node-app yarn run coverage
+docker exec -it node-app yarn coverage
 ```
 
 Entrando no container
